@@ -1,0 +1,32 @@
+:root{
+    --prim: #131d29;
+    --sec: #f2f3f5;
+    --active: #ff8901;
+
+    --primFont: 'Oswald', sans-serif;
+    --secFont: 'Roboto', sans-serif;
+}
+
+/* 
+    utility Classes
+*/
+.prim-font{
+    font-family: var(--primFont);
+}
+
+/* 
+    Global styling
+*/
+
+body{
+    background-color: var(--sec);
+}
+
+/* 
+    header
+*/
+
+.top-header{
+    background-color: var(--prim);
+
+}
