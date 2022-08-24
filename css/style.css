@@ -3,15 +3,26 @@
     --sec: #f2f3f5;
     --active: #ff8901;
 
-    --primFont: 'Oswald', sans-serif;
-    --secFont: 'Roboto', sans-serif;
+    --font: 'Oswald', sans-serif;
 }
 
 /* 
     utility Classes
 */
+
 .prim-font{
-    font-family: var(--primFont);
+    font-family: var(--font);
+}
+
+.my-btn{
+    background-color: var(--prim);
+    border-radius: 6px;
+    color: white;
+}
+
+.my-btn:hover{
+    background-color: var(--active);
+    color: white;
 }
 
 /* 
@@ -29,4 +40,58 @@ body{
 .top-header{
     background-color: var(--prim);
 
+}
+
+.demo-link{
+    display: inline-block;
+    padding-top: 16px;
+}
+
+.bottom-nav{
+    margin-top: 20px;
+}
+
+.top-nav .nav-item{
+    border-right: solid #6c757d 1px;
+}
+
+.top-nav .nav-item:last-child{
+    border-right: none;
+}
+
+.top-nav-link{
+    margin-left: 6px;
+}
+
+/* 
+    main
+*/
+
+.sliders{
+    margin: 12px 0;
+}
+
+.slider{
+    margin: 0 2px;
+    aspect-ratio: 1 / 1;
+    width: 30px;
+    background-color: #c6d0dc;
+    border-radius: 50%;
+}
+
+.slider:hover{
+    background-color: var(--active);
+}
+
+.main-content{
+    border-top: solid #6c757d 1px;
+}
+
+.main-content:nth-child(2){
+    border-left: solid #6c757d 1px;
+    border-right: solid #6c757d 1px;
+}
+
+.main-content h2{
+    margin: 30px 0;
 }

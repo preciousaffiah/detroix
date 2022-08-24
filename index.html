@@ -11,18 +11,20 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Detroix</title>
 </head>
+
 <body>
     <header class="header">
         <div class="top-header">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12 col-md-4 text-center text-md-start">
                         <!-- Use css code in the html to format the design. -->
                         <a href="#link" class="text-muted text-uppercase text-decoration-none demo-link prim-font">www.demolink.org</a> 
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-md-8">
                         <!-- justify-content-end Move to the right  -->
-                        <nav class="navbar justify-content-end">
+                        <nav class="navbar justify-content-center
+                    justify-content-md-end top-nav">
                             <ul class="nav">
                                 <!-- li.nav-item*4>a[href="#link"].nav-link.text-muted.text-uppercase.text-decoration-none -->
                                 <li class="nav-item"><a href="#link" class="nav-link text-muted text-uppercase text-decoration-none prim-font">support</a></li>
@@ -38,23 +40,23 @@
         <div class="bottom-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 text-center text-md-start">
                         <!-- img.img-fluid between the h1 -->
                         <h1 class="main-header"><img src="./media/logo.jpg" alt="Detroix" class="img-fluid"></h1>
                     </div>
-                    <div class="col-8">
-                        <nav class="navbar justify-content-end bottom-nav">
+                    <div class="col-12 col-md-8">
+                        <nav class="navbar justify-content-center justify-content-md-end bottom-nav">
                             <ul class="nav">
                                 <!-- li.nav-item*5>a[href="#link"].nav-link.text-uppercase.text-decoration-none.top-nav-link -->
-                                <li class="nav-item"><a href="#link" class="nav-link text-uppercase text-decoration-none top-nav-link prim-font">home</a>
+                                <li class="nav-item"><a href="#link" class="nav-link text-uppercase text-decoration-none top-nav-link prim-font my-btn">home</a>
                                 </li>
-                                <li class="nav-item"><a href="#link" class="nav-link text-uppercase text-decoration-none top-nav-link prim-font">about</a>
+                                <li class="nav-item"><a href="#link" class="nav-link text-uppercase text-decoration-none top-nav-link prim-font my-btn">about</a>
                                 </li>
-                                <li class="nav-item"><a href="#link" class="nav-link text-uppercase text-decoration-none top-nav-link prim-font">services</a>
+                                <li class="nav-item"><a href="#link" class="nav-link text-uppercase text-decoration-none top-nav-link prim-font my-btn">services</a>
                                 </li>
-                                <li class="nav-item"><a href="#link" class="nav-link text-uppercase text-decoration-none top-nav-link prim-font">faqs</a>
+                                <li class="nav-item"><a href="#link" class="nav-link text-uppercase text-decoration-none top-nav-link prim-font my-btn">faqs</a>
                                 </li>
-                                <li class="nav-item"><a href="#link" class="nav-link text-uppercase text-decoration-none top-nav-link prim-font">contact</a>
+                                <li class="nav-item"><a href="#link" class="nav-link text-uppercase text-decoration-none top-nav-link prim-font my-btn">contact</a>
                                 </li>
                             </ul>
                         </nav>
@@ -63,5 +65,48 @@
             </div>
         </div>
     </header>
+    <main class="main">
+        <section class="hero-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="./media//hero.jpg" alt="hero image" class="img-fluid w-100">
+                    </div>
+                    <div class="col-12">
+                        <div class="sliders d-flex justify-content-center">
+                            <div class="slider"></div>
+                            <div class="slider"></div>
+                            <div class="slider"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 main-content">
+                        <h2 class="h1 text-uppercase fw-bold">Smart</h2>
+                        <img src="./media//smart.jpg" alt="smart" class="img-fluid w-100">
+                        <p class="main-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aspernatur repellat quaerat? Officiis dolores esse consequatur ea, omnis assumenda autem veniam. Ut esse commodi adipisci?</p>
+                        <button class="btn text-uppercase my-btn">more</button>
+                    </div>
+                    <div class="col-12 col-md-4 main-content">
+                        <h2 class="h1 text-uppercase fw-bold">Strong</h2>
+                        <img src="./media//strong.jpg" alt="Strong" class="img-fluid w-100">
+                        <p class="main-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aspernatur repellat quaerat? Officiis dolores esse consequatur ea, omnis assumenda autem veniam. Ut esse commodi adipisci?</p>
+                        <button class="btn text-uppercase my-btn">more</button>
+                    </div>
+                    <div class="col-12 col-md-4 main-content">
+                        <h2 class="h1 text-uppercase fw-bold">Stable</h2>
+                        <img src="./media//stable.jpg" alt="Stable" class="img-fluid w-100">
+                        <p class="main-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aspernatur repellat quaerat? Officiis dolores esse consequatur ea, omnis assumenda autem veniam. Ut esse commodi adipisci?</p>
+                        <button class="btn text-uppercase my-btn">more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
